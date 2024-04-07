@@ -1,0 +1,747 @@
+{
+    "farming": {
+        "wheat & seeds": {
+            "WHEAT": {"craft":"base"},
+            "ENCHANTED_BREAD": {"craft":{"WHEAT":60}},
+            "HAY_BLOCK": {"craft":{"WHEAT":9}},
+            "ENCHANTED_HAY_BLOCK": {"craft":{"HAY_BLOCK": 144}},
+            "TIGHTLY_TIED_HAY_BALE": {"craft":{"ENCHANTED_HAY_BLOCK": 144}},
+            "SEEDS": {"craft":"base"},
+            "ENCHANTED_SEEDS": {"craft":{"SEEDS": 160}},
+            "BOX_OF_SEEDS": {"craft":{"ENCHANTED_SEEDS": 160}}
+        },
+        "carrot": {
+            "CARROT": {"craft":"base"},
+            "ENCHANTED_CARROT": {"craft":{"CARROT":160}},
+            "ENCHANTED_CARROT_STICK": {"craft": {"ENCHANTED_CARROT":64, "STICK":3}},
+            "ENCHANTED_GOLDEN_CARROT": {"craft": {"ENCHANTED_CARROT":128, "GOLDEN_CARROT":32}}
+        },
+        "potato": {
+            "POTATO_ITEM": {"craft":"base"},
+            "POISONOUS_POTATO": {"craft":"base"},
+            "ENCHANTED_POTATO": {"craft":{"POTATO_ITEM":160}},
+            "ENCHANTED_POISONOUS_POTATO": {"craft":{"POISONOUS_POTATO":160}},
+            "ENCHANTED_BAKED_POTATO": {"craft":{"ENCHANTED_POTATO":160}}
+        },
+        "pumpkin": {
+            "PUMPKIN": {"craft":"base"},
+            "ENCHANTED_PUMPKIN": {"craft":{"PUMPKIN":160}},
+            "POLISHED_PUMPKIN": {"craft":{"ENCHANTED_PUMPKIN":160}}
+        },
+        "melon": {
+            "MELON": {"craft":"base"},
+            "ENCHANTED_MELON": {"craft":{"MELON":160}},
+            "ENCHANTED_GLISTERING_MELON": {"craft":{"GLISTERING_MELON":256}},
+            "MELON_BLOCK": {"craft":{"MELON":9}},
+            "ENCHANTED_MELON_BLOCK": {"craft":{"ENCHANTED_MELON":160}}
+        },
+        "mushrooms": {
+            "RED_MUSHROOM": {"craft":"base"},
+            "ENCHANTED_RED_MUSHROOM": {"craft":{"RED_MUSHROOM":160}, "craft2":{"HUGE_MUSHROOM_2":160, "amount_made":9}},
+            "HUGE_MUSHROOM_2": {"craft":{"RED_MUSHROOM":9}},
+            "ENCHANTED_HUGE_MUSHROOM_2": {"craft":{"ENCHANTED_RED_MUSHROOM":32}, "craft2":{"HUGE_MUSHROOM_2":576, "amount_made":1}},
+            "BROWN_MUSHROOM": {"craft":"base"},
+            "ENCHANTED_BROWN_MUSHROOM": {"craft":{"BROWN_MUSHROOM":160}, "craft2":{"HUGE_MUSHROOM_1":160, "amount_made":9}},
+            "HUGE_MUSHROOM_1": {"craft":{"BROWN_MUSHROOM":9}},
+            "ENCHANTED_HUGE_MUSHROOM_1": {"craft":{"ENCHANTED_BROWN_MUSHROOM":32}, "craft2":{"HUGE_MUSHROOM_1":576, "amount_made":1}}
+        },
+        "cocoa beans": {
+            "INK_SACK:3": {"craft":"base"},
+            "ENCHANTED_COCOA": {"craft":{"INK_SACK:3":160}},
+            "ENCHANTED_COOKIE": {"craft": {"ENCHANTED_COCOA":128, "WHEAT":32}}
+        },
+        "cactus": {
+            "CACTUS": {"craft":"base"},
+            "ENCHANTED_CACTUS_GREEN": {"craft":{"CACTUS":160}},
+            "ENCHANTED_CACTUS": {"craft":{"ENCHANTED_CACTUS_GREEN":160}}
+        },
+        "sugar cane": {
+            "SUGAR_CANE": {"craft":"base"},
+            "ENCHANTED_SUGAR": {"craft":{"SUGAR_CANE":160}, "craft2":{"SUGAR":160, "amount_made":1}},
+            "ENCHANTED_PAPER": {"craft":{"SUGAR_CANE":192}},
+            "ENCHANTED_SUGAR_CANE": {"craft":{"ENCHANTED_SUGAR":160}}
+        },
+        "leather & beef": {
+            "LEATHER": {"craft":"base"},
+            "ENCHANTED_LEATHER": {"craft":{"LEATHER":576}},
+            "RAW_BEEF": {"craft":"base"},
+            "ENCHANTED_RAW_BEEF": {"craft":{"RAW_BEEF":160}}
+        },
+        "pork": {
+            "PORK": {"craft":"base"},
+            "ENCHANTED_PORK": {"craft":{"PORK":160}},
+            "ENCHANTED_GRILLED_PORK": {"craft":{"ENCHANTED_PORK":160}}
+        },
+        "chicken & feather": {
+            "RAW_CHICKEN": {"craft":"base"},
+            "ENCHANTED_RAW_CHICKEN": {"craft":{"RAW_CHICKEN":160}},
+            "ENCHANTED_CAKE": {"craft":{"MILK_BUCKET":3, "WHEAT":3, "ENCHANTED_SUGAR": 2, "ENCHANTED_EGG": 1}},
+            "FEATHER": {"craft":"base"},
+            "ENCHANTED_FEATHER": {"craft":{"FEATHER":192}},
+            "EGG": {"craft":"base"},
+            "ENCHANTED_EGG": {"craft":{"EGG":144}},
+            "SUPER_EGG": {"craft":{"ENCHANTED_EGG":144}},
+            "OMEGA_EGG": {"craft":{"SUPER_EGG":9}}
+        },
+        "mutton & wool": {
+            "MUTTON": {"craft":"base"},
+            "ENCHANTED_MUTTON": {"craft":{"MUTTON":160}},
+            "ENCHANTED_COOKED_MUTTON": {"craft":{"ENCHANTED_MUTTON":160}},
+            "WOOL": {"craft":"base"},
+            "ENCHANTED_WOOL": {"craft":{"WOOL":160}}
+        },
+        "rabbit": {
+            "RABBIT": {"craft":"base"},
+            "RABBIT_FOOT": {"craft":"base"},
+            "RABBIT_HIDE": {"craft":"base"},
+            "ENCHANTED_RABBIT": {"craft":{"RABBIT":160}},
+            "ENCHANTED_RABBIT_FOOT": {"craft":{"RABBIT_FOOT":160}},
+            "ENCHANTED_RABBIT_HIDE": {"craft":{"RABBIT_HIDE":576}}
+        },
+        "nether warts": {
+            "NETHER_STALK": {"craft":"base"},
+            "ENCHANTED_NETHER_STALK": {"craft":{"NETHER_STALK":160}},
+            "MUTANT_NETHER_STALK": {"craft":{"ENCHANTED_NETHER_STALK":160}}
+        },
+        "garden": {
+            "COMPOST": {"craft":"base"},
+            "ENCHANTED_COMPOST": {"craft":{"COMPOST":160}},
+            "CROPIE": {"craft":"base"},
+            "SQUASH": {"craft":"base"},
+            "FERMENTO": {"craft":"base"},
+            "CONDENSED_FERMENTO": {"craft":{"FERMENTO":9}},
+            "DUNG": {"craft":"base"},
+            "CHEESE_FUEL": {"craft":"base"},
+            "PLANT_MATTER": {"craft":"base"},
+            "HONEY_JAR": {"craft":"base"},
+            "WRIGGLING_LARVA": {"craft":"base"}
+        }
+    },
+    "mining": {
+        "cobblestone": {
+            "COBBLESTONE": {"craft":"base"},
+            "ENCHANTED_COBBLESTONE": {"craft":{"COBBLESTONE":160}}
+        },
+        "coal": {
+            "COAL": {"craft":"base"},
+            "ENCHANTED_COAL": {"craft":{"COAL":160}},
+            "ENCHANTED_CHARCOAL": {"craft":{"COAL":128, "LOG":32}},
+            "ENCHANTED_COAL_BLOCK": {"craft":{"ENCHANTED_COAL":160}}
+        },
+        "iron": {
+            "IRON_INGOT": {"craft":"base"},
+            "ENCHANTED_IRON": {"craft":{"IRON_INGOT":160}},
+            "ENCHANTED_IRON_BLOCK": {"craft":{"ENCHANTED_IRON":160}}
+        },
+        "gold": {
+            "GOLD_INGOT": {"craft":"base"},
+            "ENCHANTED_GOLD": {"craft":{"GOLD_INGOT":160}},
+            "ENCHANTED_GOLD_BLOCK": {"craft":{"ENCHANTED_GOLD":160}}
+        },
+        "diamond": {
+            "DIAMOND": {"craft":"base"},
+            "ENCHANTED_DIAMOND": {"craft":{"DIAMOND":160}},
+            "ENCHANTED_DIAMOND_BLOCK": {"craft":{"ENCHANTED_DIAMOND":160}},
+            "REFINED_DIAMOND": {"craft":{"ENCHANTED_DIAMOND_BLOCK":2}}
+        },
+        "lapis": {
+            "INK_SACK:4": {"craft":"base"},
+            "ENCHANTED_LAPIS_LAZULI": {"craft":{"INK_SACK:4":160}},
+            "ENCHANTED_LAPIS_LAZULI_BLOCK": {"craft":{"ENCHANTED_LAPIS_LAZULI":160}}
+        },
+        "emerald": {
+            "EMERALD": {"craft":"base"},
+            "ENCHANTED_EMERALD": {"craft":{"EMERALD":160}, "craft2":{"EMERALD_BLOCK":160, "amount_made":9}},
+            "ENCHANTED_EMERALD_BLOCK": {"craft":{"ENCHANTED_EMERALD":160}}
+        },
+        "redstone": {
+            "REDSTONE": {"craft":"base"},
+            "ENCHANTED_REDSTONE": {"craft":{"REDSTONE":160}, "craft2":{"REDSTONE_BLOCK":160, "amount_made":9}},
+            "ENCHANTED_REDSTONE_BLOCK": {"craft":{"ENCHANTED_REDSTONE":160}}
+        },
+        "obsidian": {
+            "OBSIDIAN": {"craft":"base"},
+            "ENCHANTED_OBSIDIAN": {"craft":{"OBSIDIAN":160}}
+        },
+        "end stone": {
+            "ENDER_STONE": {"craft":"base"},
+            "ENCHANTED_ENDSTONE": {"craft":{"ENDER_STONE":160}}
+        },
+        "flint & gravel": {
+            "FLINT": {"craft":"base"},
+            "ENCHANTED_FLINT": {"craft":{"FLINT":160}},
+            "GRAVEL": {"craft":"base"}
+        },
+        "sand": {
+            "SAND": {"craft":"base"},
+            "ENCHANTED_SAND": {"craft":{"SAND":160}}
+        },
+        "ice": {
+            "ICE": {"craft":"base"},
+            "PACKED_ICE": {"craft":{"ICE":9}},
+            "ENCHANTED_ICE": {"craft":{"ICE":160}},
+            "ENCHANTED_PACKED_ICE": {"craft":{"ENCHANTED_ICE":160}},
+            "GLACIAL_FRAGMENT": {"craft":"base"}
+        },
+        "snow": {
+            "SNOW_BALL": {"craft":"base"},
+            "SNOW_BLOCK": {"craft":{"SNOW_BALL":4}},
+            "ENCHANTED_SNOW_BLOCK": {"craft":{"SNOW_BLOCK":160}}
+        },
+        "hard stone": {
+            "HARD_STONE": {"craft":"base"},
+            "ENCHANTED_HARD_STONE": {"craft":{"HARD_STONE":576}},
+            "CONCENTRATED_STONE": {"craft":{"ENCHANTED_HARD_STONE":576}}
+        },
+        "gemstones": {
+            
+        },
+        "goblin eggs": {
+            "GOBLIN_EGG": {"craft":"base"},
+            "GOBLIN_EGG_RED": {"craft":"base"},
+            "GOBLIN_EGG_BLUE": {"craft":"base"},
+            "GOBLIN_EGG_YELLOW": {"craft":"base"},
+            "GOBLIN_EGG_GREEN": {"craft":"base"}
+        },
+        "dwarven mines": {
+            "MITHRIL_ORE": {"craft":"base"},
+            "ENCHANTED_MITHRIL": {"craft":{"MITHRIL_ORE":160}},
+            "REFINED_MITHRIL": {"craft":{"ENCHANTED_MITHRIL":160}},
+            "TITANIUM_ORE": {"craft":"base"},
+            "ENCHANTED_TITANIUM": {"craft":{"MITHRIL_ORE":160}},
+            "REFINED_TITANIUM": {"craft":{"MITHRIL_ORE":16}},
+            "STARFALL": {"craft":"base"},
+            "TREASURITE": {"craft":"base"},
+            "SORROW": {"craft":"base"}
+        },
+        "crystal hollows": {
+            "DIVAN_FRAGMENT": {"craft":"base"},
+            "BOB_OMB": {"craft":"base"},
+            "CORLEONITE": {"craft":"base"},
+            "JUNGLE_KEY": {"craft":"base"},
+            "JUNGLE_HEART": {"craft":"base"},
+            "CONTROL_SWITCH": {"craft":"base"},
+            "SUPERLITE_MOTOR": {"craft":"base"},
+            "SYNTHETIC_HEART": {"craft":"base"},
+            "ELECTRON_TRANSMITTER": {"craft":"base"},
+            "FTX_3070": {"craft":"base"},
+            "ROBOTRON_REFLECTOR": {"craft":"base"},
+            "SLUDGE_JUICE": {"craft":"base"},
+            "YOGGIE": {"craft":"base"}
+        },
+        "forge": {
+            "PLASMA": {"craft":"base"},
+            "GLACITE_JEWEL": {"craft":"base"},
+            "FUEL_TANK": {"craft":{"ENCHANTED_COAL_BLOCK":2}},
+            "BEJEWELED_HANDLE": {"craft":{"GLACITE_JEWEL":3}},
+            "GEMSTONE_MIXTURE": {"craft":{"FINE_JADE_GEM":4, "FINE_AMBER_GEM": 4, "FINE_AMETHYST_GEM":4, "FINE_SAPPHIRE_GEM":4, "SLUDGE_JUICE":320}},
+            "MITHRIL_PLATE": {"craft":{"REFINED_MITHRIL":5, "GOLDEN_PLATE":1, "ENCHANTED_IRON_BLOCK":1, "REFINED_TITANIUM":1}},
+            "DRILL_ENGINE": {"craft":{"ENCHANTED_IRON_BLOCK":1, "ENCHANTED_REDSTONE_BLOCK":3, "GOLDEN_PLATE":1, "TREASURITE":10, "REFINED_DIAMOND":1}},
+            "GOLDEN_PLATE": {"craft":{"ENCHANTED_GOLD_BLOCK":2, "GLACITE_JEWEL": 5, "REFINED_DIAMOND":1}}
+        },
+        "crimson isle": {
+            "glowstone": {
+                "GLOWSTONE_DUST": {"craft":"base"},
+                "ENCHANTED_GLOWSTONE_DUST": {"craft":{"GLOWSTONE_DUST":160}},
+                "ENCHANTED_GLOWSTONE": {"craft":{"ENCHANTED_GLOWSTONE_DUST":160}},
+                "ENCHANTED_REDSTONE_LAMP": {"craft":{"ENCHANTED_GLOWSTONE_DUST":128, "ENCHANTED_REDSTONE":32}}
+            },
+            "netherrack": {
+                "NETHERRACK": {"craft":"base"},
+                "ENCHANTED_NETHERRACK": {"craft":{"NETHERRACK":160}}
+            },
+            "quartz": {
+                "QUARTZ": {"craft":"base"},
+                "ENCHANTED_QUARTZ": {"craft":{"QUARTZ":160}},
+                "ENCHANTED_QUARTZ_BLOCK": {"craft":{"ENCHANTED_QUARTZ":160}}
+            },
+            "red sand": {
+                "SAND:1": {"craft":"base"},
+                "ENCHANTED_RED_SAND": {"craft":{"SAND:1":160}},
+                "ENCHANTED_RED_SAND_CUBE": {"craft":{"ENCHANTED_RED_SAND":160}}
+            },
+            "sulphur": {
+                "SULPHUR_ORE": {"craft":"base"},
+                "ENCHANTED_SULPHUR": {"craft":{"SULPHUR_ORE":160}},
+                "ENCHANTED_SULPHUR_CUBE": {"craft":{"ENCHANTED_SULPHUR":160}}
+            },
+            "mycelium": {
+                "MYCEL": {"craft":"base"},
+                "ENCHANTED_MYCELIUM": {"craft":{"MYCEL":160}},
+                "ENCHANTED_MYCELIUM_CUBE": {"craft":{"ENCHANTED_MYCELIUM":160}}
+            }
+        }
+    },
+    "combat": {
+        "rotten flesh": {
+            "ROTTEN_FLESH": {"craft":"base"},
+            "ENCHANTED_ROTTEN_FLESH": {"craft":{"ROTTEN_FLESH":160}}
+        },
+        "bone": {
+            "BONE": {"craft":"base"},
+            "ENCHANTED_BONE": {"craft":{"BONE":160}},
+            "ENCHANTED_BONE_BLOCK": {"craft":{"ENCHANTED_BONE":160}},
+            "ENCHANTED_BONE_MEAL": {"craft":"base"}
+        },
+        "arachnids": {
+            "STRING": {"craft":"base"},
+            "ENCHANTED_STRING": {"craft":{"STRING":160}},
+            "SPIDER_EYE": {"craft":"base"},
+            "ENCHANTED_SPIDER_EYE": {"craft":{"SPIDER_EYE":160}},
+            "ENCHANTED_FERMENTED_SPIDER_EYE": {"craft":{"BROWN_MUSHROOM":64, "SUGAR":64, "ENCHANTED_SPIDER_EYE":64}},
+            "SOUL_STRING": {"craft":"base"},
+            "ARACHNE_KEEPER_FRAGMENT": {"craft":"base"}
+        },
+        "gunpowder": {
+            "SULPHUR": {"craft":"base"},
+            "ENCHANTED_GUNPOWDER": {"craft":{"SULPHUR":160}},
+            "ENCHANTED_FIREWORK_ROCKET": {"craft":{"ENCHANTED_GUNPOWDER":64, "PAPER":16}}
+        },
+        "ender pearl": {
+            "ENDER_PEARL": {"craft":"base"},
+            "ENCHANTED_ENDER_PEARL": {"craft":{"ENDER_PEARL":20}},
+            "ENCHANTED_EYE_OF_ENDER": {"craft":{"ENCHANTED_ENDER_PEARL":16, "BLAZE_ROD":32}},
+            "ABSOLUTE_ENDER_PEARL": {"craft":{"ENCHANTED_ENDER_PEARL":80}},
+            "TESSELLATED_ENDER_PEARL": {"craft":{"ABSOLUTE_ENDER_PEARL":80, "ENCHANTED_LAPIS_LAZULI_BLOCK":32}}
+        },
+        "ghast tear": {
+            "GHAST_TEAR": {"craft":"base"},
+            "ENCHANTED_GHAST_TEAR": {"craft":{"GHAST_TEAR":5}}
+        },
+        "slimes": {
+            "SLIME_BALL": {"craft":"base"},
+            "ENCHANTED_SLIME_BALL": {"craft":{"SLIME_BALL":160}, "craft2":{"SLIME_BLOCK":160, "amount_made":9}},
+            "ENCHANTED_SLIME_BLOCK": {"craft":{"ENCHANTED_SLIME_BALL":160}},
+            "POISON_SAMPLE": {"craft":"base"}
+        },
+        "magma cream": {
+            "MAGMA_CREAM": {"craft":"base"},
+            "ENCHANTED_MAGMA_CREAM": {"craft":{"MAGMA_CREAM":160}},
+            "WHIPPED_MAGMA_CREAM": {"craft":{"ENCHANTED_MAGMA_CREAM":160}}
+        },
+        "blaze rod": {
+            "BLAZE_ROD": {"craft":"base"},
+            "ENCHANTED_BLAZE_POWDER": {"craft":{"BLAZE_ROD":160}},
+            "ENCHANTED_BLAZE_ROD": {"craft":{"ENCHANTED_BLAZE_POWDER":160}}
+        },
+        "the end": {
+            "summoning eye": {
+                "SUMMONING_EYE": {"craft":"base"}
+            },
+            "crystal fragment": {
+                "CRYSTAL_FRAGMENT": {"craft":"base"}
+            },
+            "dragon fragment": {
+                "PROTECTOR_FRAGMENT": {"craft":"base"},
+                "OLD_FRAGMENT": {"craft":"base"},
+                "UNSTABLE_FRAGMENT": {"craft":"base"},
+                "STRONG_FRAGMENT": {"craft":"base"},
+                "WISE_FRAGMENT": {"craft":"base"},
+                "YOUNG_FRAGMENT": {"craft":"base"},
+                "SUPERIOR_FRAGMENT": {"craft":"base"},
+                "HOLY_FRAGMENT": {"craft":"base"}
+            },
+            "draconic sacrifice": {
+                "RITUAL_RESIDUE": {"craft":"base"},
+                "MITE_GEL": {"craft":"base"}
+            }
+        },
+        "slayer": {
+            "revenant horror": {
+                "REVENANT_FLESH": {"craft":"base"},
+                "REVENANT_VISCERA": {"craft": {"REVENANT_FLESH":128, "ENCHANTED_STRING":32}},
+                "GOLDEN_POWDER": {"craft":"base"},
+                "UNDEAD_CATALYST": {"craft":"base"},
+                "REVENANT_CATALYST": {"craft":"base"}
+            },
+            "tarantula broodfather": {
+                "TARANTULA_WEB": {"craft":"base"},
+                "TARANTULA_SILK": {"craft":{"TARANTULA_WEB":128, "ENCHANTED_FLINT":32}},
+                "SPIDER_CATALYST": {"craft":"base"},
+                "FLY_SWATTER": {"craft":"base"},
+                "TOXIC_ARROW_POISON": {"craft":"base"}
+            },
+            "sven packmaster": {
+                "WOLF_TOOTH": {"craft":"base"},
+                "GOLDEN_TOOTH": {"craft":{"WOLF_TOOTH":128, "ENCHANTED_GOLD":32}},
+                "WEAK_WOLF_CATALYST": {"craft":"base"}
+            },
+            "voidgloom seraph": {
+                "NULL_SPHERE": {"craft":"base"},
+                "NULL_OVOID": {"craft":{"NULL_SPHERE":128, "ENCHANTED_OBSIDIAN":32}},
+                "NULL_ATOM": {"craft":"base"},
+                "RAW_SOULFLOW": {"craft":"base"},
+                "SOULFLOW": {"craft":{"RAW_SOULFLOW":160}},
+                "BRAIDED_GRIFFIN_FEATHER": {"craft":{"GRIFFIN_FEATHER":160, "SOUL_STRING":256}},
+                "TWILIGHT_ARROW_POISON": {"craft":"base"},
+                "NULL_BLADE": {"craft":{"NULL_OVOID":64, "ENCHANTED_QUARTZ_BLOCK":64, "NULL_EDGE":3}},
+                "NULL_EDGE": {"craft":{"ENCHANTED_MITHRIL":192, "NULL_ATOM":3}}
+            },
+            "inferno demonlord": {
+                "DERELICT_ASHE": {"craft":"base"},
+                "AMALGAMATED_CRIMSONITE_NEW": {"craft":{"ENCHANTED_MYCELIUM":4, "ENCHANTED_GLOWSTONE_DUST":16, "ENCHANTED_MAGMA_CREAM":16, "ENCHANTED_RED_SAND":4, "ENCHANTED_NETHER_STALK": 16, "ENCHANTED_BLAZE_POWDER": 16}, "craft2": {"ENCHANTED_GLOWSTONE":4, "WHIPPED_MAGMA_CREAM":4, "ENCHANTED_RED_SAND_CUBE":1, "MUTANT_NETHER_STALK":4, "ENCHANTED_BLAZE_ROD": 4, "ENCHANTED_MYCELIUM_CUBE": 1, "amount_made":40}},
+                "MOLTEN_POWDER": {"craft": {"DERELICT_ASHE":128, "AMALGAMATED_CRIMSONITE_NEW":1}},
+                "BLAZE_ROD_DISTILLATE": {"craft":"base"},
+                "CRUDE_GABAGOOL_DISTILLATE": {"craft":"base"},
+                "GLOWSTONE_DUST_DISTILLATE": {"craft":"base"},
+                "MAGMA_CREAM_DISTILLATE": {"craft":"base"},
+                "NETHER_STALK_DISTILLATE": {"craft":"base"},
+                "ARROW_BUNDLE_MAGMA": {"craft":"base"},
+                "KELVIN_INVERTER": {"craft":"base"},
+                "SUBZERO_INVERTER": {"craft":"base"},
+                "STUFFED_CHILI_PEPPER": {"craft":{"CHILI_PEPPER":160}}
+            }
+        },
+        "catacombs": {
+            "fragments": {
+                "BONZO_FRAGMENT": {"craft":"base"},
+                "SCARF_FRAGMENT": {"craft":"base"},
+                "LIVID_FRAGMENT": {"craft":"base"},
+                "THORN_FRAGMENT": {"craft":"base"}
+            },
+            "special fragments": {
+                "GIANT_FRAGMENT_BOULDER": {"craft":"base"},
+                "GIANT_FRAGMENT_LASER": {"craft":"base"},
+                "GIANT_FRAGMENT_BIGFOOT": {"craft":"base"},
+                "GIANT_FRAGMENT_DIAMOND": {"craft":"base"}
+            },
+            "mob drops": {
+                "MIMIC_FRAGMENT": {"craft":"base"},
+                "FEL_PEARL": {"craft":"base"},
+                "GOLEM_POPPY": {"craft":"base"},
+                "WITHER_CATALYST": {"craft":"base"}
+            },
+            "secret drops": {
+                "DUNGEON_CHEST_KEY": {"craft":"base"},
+                "SUPERBOOM_TNT": {"craft":"base"},
+                "DUNGEON_TRAP": {"craft":"base"},
+                "SPIRIT_LEAP": {"craft":"base"},
+                "INFLATABLE_JERRY": {"craft":"base"},
+                "DUNGEON_DECOY": {"craft":"base"}
+            },
+            "catacombs misc.": {
+                "KISMET_FEATHER": {"craft":"base"},
+                "HEALING_TISSUE": {"craft":"base"},
+                "SPIRIT_WING": {"craft":"base"},
+                "SPIRIT_BONE": {"craft":"base"}
+            }
+        }
+    },
+    "woods & fishes": {
+        "oak": {
+            "LOG": {"craft":"base"},
+            "ENCHANTED_OAK_LOG": {"craft":{"LOG":160}}
+        },
+        "spruce": {
+            "LOG:1": {"craft":"base"},
+            "ENCHANTED_SPRUCE_LOG": {"craft":{"LOG:1":160}}
+        },
+        "birch": {
+            "LOG:2": {"craft":"base"},
+            "ENCHANTED_BIRCH_LOG": {"craft":{"LOG:2":160}}
+        },
+        "dark oak": {
+            "LOG_2:1": {"craft":"base"},
+            "ENCHANTED_DARK_OAK_LOG": {"craft":{"LOG_2:1":160}}
+        },
+        "acacia": {
+            "LOG_2": {"craft":"base"},
+            "ENCHANTED_ACACIA_LOG": {"craft":{"LOG_2":160}}
+        },
+        "jungle": {
+            "LOG:3": {"craft":"base"},
+            "ENCHANTED_JUNGLE_LOG": {"craft":{"LOG:3":160}}
+        },
+        "flowers": {
+            "RED_ROSE": {"craft":"base"},
+            "ENCHANTED_POPPY": {"craft":{"RED_ROSE":160}},
+            "YELLOW_FLOWER": {"craft":"base"},
+            "ENCHANTED_DANDELION": {"craft":{"YELLOW_FLOWER":160}}
+        },
+        "raw fish": {
+            "RAW_FISH": {"craft":"base"},
+            "ENCHANTED_RAW_FISH": {"craft":{"RAW_FISH":160}},
+            "ENCHANTED_COOKED_FISH": {"craft":{"ENCHANTED_RAW_FISH":160}}
+        },
+        "salmon": {
+            "RAW_FISH:1": {"craft":"base"},
+            "ENCHANTED_RAW_SALMON": {"craft":{"RAW_FISH:1":160}},
+            "ENCHANTED_COOKED_SALMON": {"craft":{"ENCHANTED_RAW_SALMON":160}}
+        },
+        "clownfish": {
+            "RAW_FISH:2": {"craft":"base"},
+            "ENCHANTED_CLOWNFISH": {"craft":{"RAW_FISH:2":160}}
+        },
+        "pufferfish": {
+            "RAW_FISH:3": {"craft":"base"},
+            "ENCHANTED_PUFFERFISH": {"craft":{"RAW_FISH:3":160}}
+        },
+        "prismarine": {
+            "PRISMARINE_SHARD": {"craft":"base"},
+            "ENCHANTED_PRISMARINE_SHARD": {"craft":{"PRISMARINE_SHARD":80}},
+            "PRISMARINE_CRYSTALS": {"craft":"base"},
+            "ENCHANTED_PRISMARINE_CRYSTALS": {"craft":{"PRISMARINE_CRYSTALS":80}}
+        },
+        "clay": {
+            "CLAY_BALL": {"craft":"base"},
+            "ENCHANTED_CLAY_BALL": {"craft":{"CLAY_BALL":160}}
+        },
+        "sponge": {
+            "SPONGE": {"craft":"base"},
+            "ENCHANTED_SPONGE": {"craft":{"SPONGE":40}},
+            "ENCHANTED_WET_SPONGE": {"craft":{"ENCHANTED_SPONGE":40}}
+        },
+        "lily pads": {
+            "WATER_LILY": {"craft":"base"},
+            "ENCHANTED_WATER_LILY": {"craft":{"WATER_LILY":160}}
+        },
+        "inc sac": {
+            "INK_SACK": {"craft":"base"},
+            "ENCHANTED_INK_SACK": {"craft":{"WATER_LILY":80}}
+        },
+        "baits": {
+            "CARROT_BAIT": {"craft":{"CARROT":1, "RAW_FISH":1}},
+            "MINNOW_BAIT": {"craft":{"RAW_FISH":2}},
+            "FISH_BAIT": {"craft":{"RAW_FISH":2, "RAW_FISH:1":1}},
+            "LIGHT_BAIT": {"craft":{"PRISMARINE_CRYSTALS":2, "RAW_FISH":1}},
+            "DARK_BAIT": {"craft":{"INK_SACK":1, "RAW_FISH":1}},
+            "SPOOKY_BAIT": {"craft":{"PUMPKIN":1, "RAW_FISH":1}},
+            "SPIKED_BAIT": {"craft":{"RAW_FISH:3":1, "RAW_FISH":1}},
+            "BLESSED_BAIT": {"craft":{"PRISMARINE_CRYSTALS":1, "RAW_FISH":1, "GOLD_BLOCK":1}},
+            "ICE_BAIT": {"craft":{"ICE":1, "RAW_FISH":1}},
+            "WHALE_BAIT": {"craft":{"FISH_BAIT":1, "LIGHT_BAIT":1, "DARK_BAIT":1, "BLESSED_BAIT":1}},
+            "SHARK_BAIT": {"craft":{"SHARK_FIN":2, "amount_made":16}},
+            "CORRUPTED_BAIT": {"craft":{"CORRUPTED_FRAGMENT":1, "MAGMA_FISH":1, "amount_made":16}},
+            "HOT_BAIT": {"craft":{"BLAZE_ASHES":1, "MAGMA_FISH":1, "amount_made":16}},
+            "GLOWY_CHUM_BAIT": {"craft":"base"}
+        },
+        "mob drops": {
+            "WORM_MEMBRANE": {"craft":"base"},
+            "ICE_HUNK": {"craft":"base"},
+            "BLUE_ICE_HUNK": {"craft":"base"},
+            "DIVER_FRAGMENT": {"craft":"base"},
+            "BOBBIN_SCRIPTURES": {"craft":"base"},
+            "MAGMA_CORE": {"craft":"base"}
+        },
+        "magmafish": {
+            "MAGMA_FISH": {"craft":"base"},
+            "MAGMA_FISH_SILVER": {"craft":{"MAGMA_FISH":80}},
+            "MAGMA_FISH_GOLD": {"craft":{"MAGMA_FISH_SILVER":80}},
+            "MAGMA_FISH_DIAMOND": {"craft":{"MAGMA_FISH_GOLD":80}}
+        },
+        "water orbs": {
+            "WATER_ORB": {"craft":{"ENCHANTED_RAW_FISH":16, "ENCHANTED_WATER_LILY":8, "ENCHANTED_RAW_SALMON":16, "ENCHANTED_PRISMARINE_SHARD":16, "DIVER_FRAGMENT":1, "ENCHANTED_PRISMARINE_CRYSTALS":16, "ENCHANTED_SPONGE":4, "ENCHANTED_PUFFERFISH":16, "ENCHANTED_CLOWNFISH":8}},
+            "LAVA_WATER_ORB": {"craft":{"MAGMA_FISH_SILVER":32, "THUNDER_SHARDS":2, "MOOGMA_PELT":64, "WATER_ORB":1, "LUMP_OF_MAGMA":64, "CUP_OF_BLOOD":32, "HORN_OF_TAURUS":16, "FLAMING_HEART":32}},
+            "SPOOKY_WATER_ORB": {"craft":{"PURPLE_CANDY":64, "SOUL_FRAGMENT":1, "WEREWOLF_SKIN":24, "WATER_ORB":1}},
+            "SHARK_WATER_ORB": {"craft":{"ENCHANTED_SHARK_FIN":4, "GREAT_WHITE_SHARK_TOOTH":1, "BLUE_SHARK_TOOTH":6, "NURSE_SHARK_TOOTH":12, "TIGER_SHARK_TOOTH":4, "WATER_ORB":1}},
+            "WINTER_WATER_ORB": {"craft":{"ICE_HUNK":128, "ENCHANTED_SNOW_BLOCK":64 , "WHITE_GIFT":64, "GREEN_GIFT":16, "BLUE_ICE_HUNK":32, "WATER_ORB":1}}
+        },
+        "chum fishing": {
+            "CHUM": {"craft":"base"},
+            "GLOWING_MUSHROOM": {"craft":"base"},
+            "EMPTY_CHUM_BUCKET": {"craft":{"GLOWING_MUSHROOM":8}},
+            "FULL_CHUM_BUCKET": {"craft":{"EMPTY_CHUM_BUCKET":1, "CHUM":10}}
+        }
+    },
+    "oddities": {
+        "booster cookie": {
+            "BOOSTER_COOKIE": {"craft":"base"}
+        },
+        "modifiers": {
+            "item upgrades": {
+                "RECOMBOBULATOR_3000": {"craft":"base"},
+                "WOOD_SINGULARITY": {"craft":{"ENCHANTED_OAK_LOG":320, "ENCHANTED_SPRUCE_LOG":320, "ENCHANTED_BIRCH_LOG":320, "ENCHANTED_DARK_OAK_LOG":320, "ENCHANTED_ACACIA_LOG":320, "ENCHANTED_JUNGLE_LOG":320}},
+                "SIL_EX": {"craft":{"CONCENTRATED_STONE":9}},
+                "TRANSMISSION_TUNER": {"craft":"base"}
+            },
+            "wither scrolls": {
+                "IMPLOSION_SCROLL": {"craft":"base"},
+                "WITHER_SHIELD_SCROLL": {"craft":"base"},
+                "SHADOW_WARP_SCROLL": {"craft":"base"}
+            },
+            "master stars": {
+                "FIRST_MASTER_STAR": {"craft":"base"},
+                "SECOND_MASTER_STAR": {"craft":"base"},
+                "THIRD_MASTER_STAR": {"craft":"base"},
+                "FOURTH_MASTER_STAR": {"craft":"base"},
+                "FIFTH_MASTER_STAR": {"craft":"base"}
+            },
+            "book modifiers": {
+                "HOT_POTATO_BOOK": {"craft":{"ENCHANTED_BAKED_POTATO":1, "PAPER":3}},
+                "FUMING_POTATO_BOOK": {"craft":"base"},
+                "BOOK_OF_STATS": {"craft":"base"},
+                "THE_ART_OF_WAR": {"craft":{"ENCHANTED_GRILLED_PORK":2, "COINS":7500000}},
+                "FARMING_FOR_DUMMIES": {"craft":"base"},
+                "THE_ART_OF_PEACE": {"craft":{"COINS":50000000}},
+                "JALAPENO_BOOK": {"craft":{"ENCHANTED_PAPER":3, "STUFFED_CHILI_PEPPER":1}},
+                "BOOKWORM_BOOK": {"craft":"base"},
+                "POLARVOID_BOOK": {"craft":{"FROSTY_CRUX":3, "METAL_HEART":20}}
+            }
+        },
+
+
+        "enchantments": {
+            "normal enchantments": {},
+            "ultimate enchantments": {}
+        },
+
+
+        "exp bottles": {
+            "EXP_BOTTLE": {"craft":{"INK_SACK:4":6, "GLASS_BOTTLE":1}},
+            "GRAND_EXP_BOTTLE": {"craft":{"ENCHANTED_LAPIS_LAZULI":6, "GLASS_BOTTLE":1}},
+            "TITANIC_EXP_BOTTLE": {"craft":{"ENCHANTED_LAPIS_LAZULI_BLOCK":6, "GLASS_BOTTLE":1}},
+            "COLOSSAL_EXP_BOTTLE": {"craft":{"TITANIC_EXP_BOTTLE":1, "COLOSSAL_EXP_BOTTLE_UPGRADE":1}}
+        },
+
+
+        "reforge stones": {},
+        "power stones": {},
+
+
+        "stock of stonks": {
+            "STOCK_OF_STONKS": {"craft":"base"}
+        },
+        "pet upgrades": {
+            "PET_ITEM_LUCKY_CLOVER_DROP": {"craft":"base"},
+            "PET_ITEM_EXP_SHARE_DROP": {"craft":"base"},
+            "PET_ITEM_TIER_BOOST_DROP": {"craft":"base"},
+            "CHYME": {"craft":"base"},
+            "SIMPLE_CARROT_CANDY": {"craft":{"CARROT_ITEM":576}},
+            "GREAT_CARROT_CANDY": {"craft":{"SIMPLE_CARROT_CANDY":1, "ENCHANTED_CARROT":320}},
+            "SUPERB_CARROT_CANDY": {"craft":{"GREAT_CARROT_CANDY":1, "ENCHANTED_GOLDEN_CARROT":24}},
+            "ULTIMATE_CARROT_CANDY": {"craft":{"SUPERB_CARROT_CANDY":8, "ULTIMATE_CARROT_CANDY_UPGRADE":1}},
+            "RADIOACTIVE_VIAL": {"craft":"base"},
+            "ENDERMAN_CORTEX_REWRITER": {"craft":"base"},
+            "PET_ITEM_TOY_JERRY": {"craft":"base"},
+            "MIXED_MITE_GEL": {"craft":{"MITE_GEL":160}},
+            "PET_ITEM_VAMPIRE_FANG": {"craft":"base"},
+            "PET_ITEM_PURE_MITHRIL_GEM": {"craft":"base"},
+            "BLACK_WOOLEN_YARN": {"craft":"base"},
+            "MAGIC_TOP_HAT": {"craft":{"NORTH_STAR":500, "VOLCANIC_ROCK":10}},
+            "GUARDIAN_LUCKY_BLOCK": {"craft":"base"}
+        },
+        "inferno minion": {
+            "CRUDE_GABAGOOL": {"craft":"base"},
+            "VERY_CRUDE_GABAGOOL": {"craft":{"CRUDE_GABAGOOL":192}},
+            "FUEL_GABAGOOL": {"craft":{"CRUDE_GABAGOOL":24, "SULPHURIC_COAL":1}, "craft2":{"VERY_CRUDE_GABAGOOL":1, "SULPHURIC_COAL":8, "amount_made":8}},
+            "HEAVY_GABAGOOL": {"craft":{"FUEL_GABAGOOL":24, "SULPHURIC_COAL":1}},
+            "HYPERGOLIC_GABAGOOL": {"craft":{"HEAVY_GABAGOOL":12, "SULPHURIC_COAL":1}},
+            "INFERNO_VERTEX": {"craft":{"HYPERGOLIC_IONIZED_CERAMICS":6, "MOLTEN_POWDER":64}},
+            "INFERNO_APEX": {"craft":{"HYPERGOLIC_IONIZED_CERAMICS":16, "INFERNO_VERTEX":64, "MOLTEN_POWDER":64}},
+            "REAPER_PEPPER": {"craft":"base"},
+            "CHILI_PEPPER": {"craft":"base"},
+            "INFERNO_FUEL_BLOCK": {"craft":"base"},
+            "HYPERGOLIC_IONIZED_CERAMICS": {"craft":"base"},
+            "SULPHURIC_COAL": {"craft":{"ENCHANTED_COAL":4, "ENCHANTED_SULPHUR":0.25}, "craft2":{"ENCHANTED_COAL":4, "ENCHANTED_SULPHUR":0.25, "CHILI_PEPPER":1, "amount_made":3}},
+            "REHEATED_GUMMY_POLAR_BEAR": {"craft":{"CHILI_PEPPER":4, "ENCHANTED_SLIME_BALL":4, "ENCHANTED_SNOW_BLOCK":4}},
+            "CAPSAICIN_EYEDROPS_NO_CHARGES": {"craft":{"CHILI_PEPPER":4, "ENCHANTED_CARROT":128, "EXPORTABLE_CARROTS":128, "WATER_HYDRA_HEAD":1}}
+        },
+        "minion upgrades": {
+            "SMALL_ENCHANTED_CHEST": {"craft":{"LOG":64}},
+            "MEDIUM_ENCHANTED_CHEST": {"craft":{"SMALL_ENCHANTED_CHEST":1, "ENCHANTED_OAK_LOG":8}},
+            "LARGE_ENCHANTED_CHEST": {"craft":{"MEDIUM_ENCHANTED_CHEST":1, "ENCHANTED_OAK_LOG":256}},
+            "XLARGE_ENCHANTED_CHEST": {"craft":{"LARGE_ENCHANTED_CHEST":1, "MINION_STORAGE_EXPANDER":1}},
+            "XXLARGE_ENCHANTED_CHEST": {"craft":{"XLARGE_ENCHANTED_CHEST":1, "MINION_STORAGE_EXPANDER":1}},
+            "COMPACTOR": {"craft":{"ENCHANTED_COBBLESTONE":8, "ENCHANTED_REDSTONE":1}},
+            "DWARVEN_COMPACTOR": {"craft":{"ENCHANTED_MITHRIL":56, "SUPER_COMPACTOR_3000":1, "AUTO_SMELTER":1}},
+            "DIAMOND_SPREADING": {"craft":{"ENCHANTED_DIAMOND":1, "VINES":8}},
+            "MINION_EXPANDER": {"craft":{"ENCHANTED_QUARTZ":16, "ENCHANTED_REDSTONE":2}},
+            "POTATO_SPREADING": {"craft":"base"},
+            "AUTO_SMELTER": {"craft":{"COBBLESTONE":64, "COAL":1}},
+            "SOULFLOW_ENGINE": {"craft":{"NULL_OVOID":64, "NULL_ATOM":2, "LESSER_SOULFLOW_ENGINE":4, "REFINED_TITANIUM":12}},
+            "BUDGET_HOPPER": {"craft":{"ENCHANTED_IRON":5, "CHEST":1}},
+            "ENCHANTED_HOPPER": {"craft":{"ENCHANTED_IRON_BLOCK":5, "CHEST":1}},
+            "CORRUPT_SOIL": {"craft":{"ENCHANTED_MYCELIUM":160, "CORRUPTED_FRAGMENT":20}},
+            "MITHRIL_INFUSION": {"craft":{"ENCHANTED_MITHRIL":512, "MAGMA_BUCKET":1}},
+            "BERBERIS_FUEL_INJECTOR": {"craft":{"WILTED_BERBERIS":336}},
+            "FLYCATCHER_UPGRADE": {"craft":{"TARANTULA_SILK":102, "FLY_SWATTER":1}},
+            "SLEEPY_HOLLOW": {"craft":{"DARK_CANDY":400}}
+        },
+        "fuels": {
+            "ENCHANTED_LAVA_BUCKET": {"craft":{"ENCHANTED_IRON":3, "ENCHANTED_COAL_BLOCK":2}},
+            "MAGMA_BUCKET": {"craft":{"HEAT_CORE":1, "ENCHANTED_LAVA_BUCKET":2}},
+            "PLASMA_BUCKET": {"craft":{"HEAT_CORE":1, "MAGMA_BUCKET":2}},
+            "HAMSTER_WHEEL": {"craft":"base"},
+            "FOUL_FLESH": {"craft":"base"},
+            "POWER_CRYSTAL": {"craft":{"STARFALL":256}},
+            "CATALYST": {"craft":{"CRYSTAL_FRAGMENT":1, "ENDER_STONE":8}},
+            "HYPER_CATALYST": {"craft":{"HYPER_CATALYST_UPGRADE":1, "CATALYST":8}},
+            "SOLAR_PANEL": {"craft":{"GLASS":3, "PLANK":3, "ENCHANTED_QUARTZ":192}},
+            "OIL_BARREL": {"craft":"base"},
+            "SCORCHED_POWER_CRYSTAL": {"craft":"base"},
+            "VOLTA": {"craft":"base"}
+        },
+        "essence": {
+            "ESSENCE_WITHER": {"craft":"base"},
+            "ESSENCE_SPIDER": {"craft":"base"},
+            "ESSENCE_UNDEAD": {"craft":"base"},
+            "ESSENCE_DRAGON": {"craft":"base"},
+            "ESSENCE_GOLD": {"craft":"base"},
+            "ESSENCE_DIAMOND": {"craft":"base"},
+            "ESSENCE_ICE": {"craft":"base"},
+            "ESSENCE_CRIMSON": {"craft":"base"}
+        },
+        "events": {
+            "spooky": {
+                "GREEN_CANDY": {"craft":"base"},
+                "PURPLE_CANDY": {"craft":"base"},
+                "DARK_CANDY": {"craft":"base"},
+                "ECTOPLASM": {"craft":"base"},
+                "PUMPKIN_GUTS": {"craft":"base"},
+                "SPOOKY_SHARD": {"craft":"base"},
+                "WEREWOLF_SKIN": {"craft":"base"},
+                "SOUL_FRAGMENT": {"craft":"base"},
+                "BAT_FIREWORK": {"craft":{"GREEN_CANDY":100}},
+                "PUMPKIN_BOMB": {"craft":{"GREEN_CANDY":8, "PUMPKIN_GUTS":1}},
+                "HORSEMAN_CANDLE": {"craft":{"PURPLE_CANDY":32}},
+                "EXPIRED_PUMPKIN": {"craft":{"DARK_CANDY":1}}
+            },
+            "gifts": {
+                "WHITE_GIFT": {"craft":"base"},
+                "GREEN_GIFT": {"craft":"base"},
+                "RED_GIFT": {"craft":"base"}
+            },
+            "refined mineral": {
+                "REFINED_MINERAL": {"craft":"base"}
+            },
+            "jacob's ticket": {
+                "JACOBS_TICKET": {"craft":"base"}
+            },
+            "mythological": {
+                "GRIFFIN_FEATHER": {"craft":"base"},
+                "DAEDALUS_STICK": {"craft":"base"},
+                "ANCIENT_CLAW": {"craft":"base"},
+                "ENCHANTED_ANCIENT_CLAW": {"craft":{"ANCIENT_CLAW":160}}
+            },
+            "fishing festival": {
+                "NURSE_SHARK_TOOTH": {"craft":"base"},
+                "BLUE_SHARK_TOOTH": {"craft":"base"},
+                "TIGER_SHARK_TOOTH": {"craft":"base"},
+                "GREAT_WHITE_SHARK_TOOTH": {"craft":"base"},
+                "SHARK_FIN": {"craft":"base"},
+                "ENCHANTED_SHARK_FIN": {"craft":{"SHARK_FIN":160}},
+                "GREAT_WHITE_TOOTH_MEAL": {"craft":{"GREAT_WHITE_SHARK_TOOTH":4, "ENCHANTED_BONE":1}}
+            },
+            "jerry boxes": {
+                "JERRY_BOX_GREEN": {"craft":"base"},
+                "JERRY_BOX_BLUE": {"craft":"base"},
+                "JERRY_BOX_PURPLE": {"craft":"base"},
+                "JERRY_BOX_GOLDEN": {"craft":"base"}
+            }
+        },
+        "consumables": {
+            "MAGIC_MUSHROOM_SOUP": {"craft":{"REDSTONE":1, "GLOWSTONE_DUST":1, "RED_MUSHROOM":1, "BROWN_MUSHROOM":1, "BOWL":1}},
+            "SUPER_MAGIC_MUSHROOM_SOUP": {"craft":{"ENCHANTED_REDSTONE":1, "ENCHANTED_GLOWSTONE_DUST":1, "ENCHANTED_RED_MUSHROOM":1, "ENCHANTED_BROWN_MUSHROOM":1, "BOWL":1}},
+            "METAPHYSICAL_SERUM": {"craft":"base"}
+        },
+        "cross-dimensional":{
+            "LUSH_BERBERIS": {"craft":"base"},
+            "ENCHANTED_LUSH_BERBERIS": {"craft":{"LUSH_BERBERIS":160}},
+            "AGARIMOO_TONGUE": {"craft":"base"},
+            "EXPORTABLE_CARROTS": {"craft":{"VOLT_CRUX":1, "NEARLY_WHOLE_CARROT":2, "SCRIBE_CRUX":1}},
+            "HEMOVIBE": {"craft":"base"},
+            "HEMOGLASS": {"craft":{"HEMOVIBE":160}},
+            "HEMOBOMB": {"craft":{"HEMOGLASS":15}}
+        }
+    }
+}
