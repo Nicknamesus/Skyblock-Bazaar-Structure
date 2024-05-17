@@ -4,6 +4,8 @@ This is repository contains a json file with the structure of the skyblock bazaa
 ## General info
 This repository contains all item IDs mentioned in [the official Skyblock Bazaar Wiki](https://wiki.hypixel.net/Bazaar). It represents how the Bazaar is structured in-game, each item id being an official skyblock item id (unless there was an error in the Wiki that i didn't notice.
 
+bazaar_structure.json contains the bazaar's structure (categories like farming, etc.) and bazaar_structure_simplified.json contains only the items and their crafts.
+
 ## How to use
 Each item has a craft. It can either be 'base', meaning its not craftable, or a dictionary. The dictionnary contains the ID of each item needed for the craft and how much of it is needed. 
 
